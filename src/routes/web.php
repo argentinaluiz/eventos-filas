@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['middleware' => 'auth'], function (){
+    Route::resource('products', 'ProductsController', ['only' => ['index']]);
+    Route::resource('stock_entries', 'StockEntriesController', ['only' => ['index', 'create', 'store']]);
+    Route::resource('stock_outputs', 'StockOutputsController', ['only' => ['index', 'create', 'store']]);
+    Route::resource('orders', 'OrdersCOntroller', ['only' => ['create', 'store']]);
+
+});
+

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="filas-eventos@0.0.0.0" uuid="37897df4-7585-47e2-b627-bb4e6ad2468c">
+    <data-source source="LOCAL" name="filas-eventos-mysql" uuid="481b59c4-9c91-4af3-af50-048defe28b50">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>

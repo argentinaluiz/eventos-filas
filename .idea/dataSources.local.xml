@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="filas-eventos@0.0.0.0" uuid="37897df4-7585-47e2-b627-bb4e6ad2468c">
+    <data-source name="filas-eventos-mysql" uuid="481b59c4-9c91-4af3-af50-048defe28b50">
       <database-info product="MySQL" version="5.7.19" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
