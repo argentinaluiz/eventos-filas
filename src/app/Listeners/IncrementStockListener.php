@@ -15,10 +15,10 @@ class IncrementStockListener
      * @param  StockEntryCreated  $event
      * @return void
      */
-    public function handle(StockEntryCreated $event)
+    public function handle(StockEntryCreated $dispatchesEvents)
     {
         //incrementa o estoque do produto
-        $entry = $event->getEntry();
+        $entry = $dispatchesEvents->getEntry();
         $product = $entry -> product;
         $product->stock = $product->stock + $entry->quantity;
         $product -> save();

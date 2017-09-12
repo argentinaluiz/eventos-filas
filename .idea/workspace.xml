@@ -2,61 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4e2980-e96f-4bc9-8aca-8d2fb41d132a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Events/ProductUpdated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Events/StockEntryCreated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Events/StockOutputCreated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/HomeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/ProductsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/StockEntriesController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/StockOutputsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Listeners/CheckStockMaxListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Listeners/CheckStockMinListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Listeners/DecrementStockListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Listeners/IncrementStockListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Mail/StockGreatherMax.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Mail/StockLessMin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Mail/UserRegistered.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Observers/UserObserver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/StockEntry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/StockMovements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/StockOutput.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/factories/ModelFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/migrations/2017_08_31_203954_create_products_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/migrations/2017_08_31_204706_create_stock_entries_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/migrations/2017_08_31_204733_create_stock_outputs_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/migrations/2017_09_06_195053_create_orders_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/migrations/2017_09_06_195648_create_order_products_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/seeds/ProductsTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/database/seeds/UsersTableSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/auth/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/auth/passwords/email.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/auth/passwords/reset.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/auth/register.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/emails/stock/greather-max.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/emails/stock/less-min.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/emails/user/registered.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/home.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/layouts/app.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/products/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/stock-entries/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/stock-entries/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/stock-movements/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/stock-movements/index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/stock-outputs/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/stock-outputs/index.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/database/factories/UserFactory.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/filas-eventos.iml" afterPath="$PROJECT_DIR$/.idea/filas-eventos.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Stock/DecrementStocks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/orders/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/views/orders/successfully.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/37897df4-7585-47e2-b627-bb4e6ad2468c.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/Listeners/DecrementStockListener.php" afterPath="$PROJECT_DIR$/src/app/Listeners/DecrementStockFromOutputListener.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Listeners/CheckStockMinListener.php" afterPath="$PROJECT_DIR$/src/app/Listeners/CheckStockMinListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Listeners/IncrementStockListener.php" afterPath="$PROJECT_DIR$/src/app/Listeners/IncrementStockListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Product.php" afterPath="$PROJECT_DIR$/src/app/Product.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/composer.json" afterPath="$PROJECT_DIR$/src/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/StockEntry.php" afterPath="$PROJECT_DIR$/src/app/StockEntry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/StockOutput.php" afterPath="$PROJECT_DIR$/src/app/StockOutput.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/composer.lock" afterPath="$PROJECT_DIR$/src/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/src/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/welcome.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/layouts/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/web.php" afterPath="$PROJECT_DIR$/src/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,46 +33,58 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="filas-eventos-mysql" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="filas-eventos-mysql" type="e3449647:DbNodeDescriptor" />
+        <item name="filas-eventos" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductsTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/seeds/ProductsTableSeeder.php">
+      <file leaf-file-name="laravel.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/storage/logs/laravel.log">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/seeds/UsersTableSeeder.php">
+      <file leaf-file-name="DecrementStockFromOutputListener.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Listeners/DecrementStockFromOutputListener.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#33#63#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockOutput.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/StockOutput.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/481b59c4-9c91-4af3-af50-048defe28b50/console.sql">
+      <file leaf-file-name="DecrementStocks.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Stock/DecrementStocks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+            <state relative-caret-position="54">
+              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -121,24 +92,17 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/resources/views/orders</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/src/app/Observers/UserObserver.php" />
-        <option value="$PROJECT_DIR$/src/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/src/resources/views/products/index.blade.php" />
-        <option value="$PROJECT_DIR$/src/resources/views/stock-movements/create.blade.php" />
-        <option value="$PROJECT_DIR$/src/resources/views/stock-movements/index.blade.php" />
-        <option value="$PROJECT_DIR$/src/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/src/database/seeds/ProductsTableSeeder.php" />
-        <option value="$PROJECT_DIR$/src/database/migrations/2017_08_31_204706_create_stock_entries_table.php" />
-        <option value="$PROJECT_DIR$/src/database/migrations/2017_08_31_204733_create_stock_outputs_table.php" />
-        <option value="$PROJECT_DIR$/src/app/StockMovements.php" />
-        <option value="$PROJECT_DIR$/src/resources/views/stock-entries/index.blade.php" />
         <option value="$PROJECT_DIR$/src/resources/views/stock-outputs/index.blade.php" />
         <option value="$PROJECT_DIR$/src/resources/views/stock-outputs/create.blade.php" />
         <option value="$PROJECT_DIR$/src/resources/views/stock-entries/create.blade.php" />
@@ -148,36 +112,48 @@
         <option value="$PROJECT_DIR$/src/database/factories/ModelFactory.php" />
         <option value="$PROJECT_DIR$/src/database/migrations/2017_08_31_203954_create_products_table.php" />
         <option value="$PROJECT_DIR$/src/.env.example" />
-        <option value="$PROJECT_DIR$/src/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/src/app/Mail/StockGreatherMax.php" />
         <option value="$PROJECT_DIR$/src/resources/views/emails/stock/greather-max.blade.php" />
         <option value="$PROJECT_DIR$/src/app/Events/StockEntryCreated.php" />
-        <option value="$PROJECT_DIR$/src/app/Listeners/IncrementStockListener.php" />
-        <option value="$PROJECT_DIR$/src/app/StockEntry.php" />
         <option value="$PROJECT_DIR$/src/app/Listeners/CheckStockMaxListener.php" />
         <option value="$PROJECT_DIR$/src/resources/views/emails/stock/less-min.blade.php" />
-        <option value="$PROJECT_DIR$/src/storage/logs/laravel.log" />
         <option value="$PROJECT_DIR$/src/app/Events/StockOutputCreated.php" />
-        <option value="$PROJECT_DIR$/src/app/Listeners/CheckStockMinListener.php" />
-        <option value="$PROJECT_DIR$/src/app/Listeners/DecrementStockListener.php" />
         <option value="$PROJECT_DIR$/src/app/Mail/StockLessMin.php" />
-        <option value="$PROJECT_DIR$/src/app/Product.php" />
         <option value="$PROJECT_DIR$/src/app/Events/ProductUpdating.php" />
         <option value="$PROJECT_DIR$/src/app/Events/ProductUpdated.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/StockOutputsController.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/StockEntriesController.php" />
         <option value="$PROJECT_DIR$/src/database/migrations/2017_09_06_192213_create_orders_table.php" />
-        <option value="$PROJECT_DIR$/src/routes/web.php" />
         <option value="$PROJECT_DIR$/src/database/migrations/2017_09_06_192302_create_order_product.php" />
         <option value="$PROJECT_DIR$/src/database/migrations/2017_09_06_192302_create_order_products.php" />
         <option value="$PROJECT_DIR$/src/database/migrations/2017_09_06_195053_create_orders_table.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/37897df4-7585-47e2-b627-bb4e6ad2468c/console.sql" />
         <option value="$PROJECT_DIR$/src/database/migrations/2017_09_06_195648_create_order_products_table.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/src/app/StockOutput.php" />
-        <option value="$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/.env" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/481b59c4-9c91-4af3-af50-048defe28b50/console.sql" />
+        <option value="$PROJECT_DIR$/src/app/StockEntry.php" />
+        <option value="$PROJECT_DIR$/src/app/Listeners/IncrementStockListener.php" />
+        <option value="$PROJECT_DIR$/src/app/Listeners/CheckStockMinListener.php" />
+        <option value="$PROJECT_DIR$/src/app/StockOutput.php" />
+        <option value="$PROJECT_DIR$/src/app/Product.php" />
+        <option value="$PROJECT_DIR$/src/app/Order.php" />
+        <option value="$PROJECT_DIR$/src/app/Http/Controllers/OrdesrController.php" />
+        <option value="$PROJECT_DIR$/src/app/Http/Controllers/OrdersController.php" />
+        <option value="$PROJECT_DIR$/src/resources/views/orders/create.blade.php" />
+        <option value="$PROJECT_DIR$/src/resources/views/orders/successfully.blade.php" />
+        <option value="$PROJECT_DIR$/src/routes/web.php" />
+        <option value="$PROJECT_DIR$/src/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/app/Events/OrderProductsSaveCompleted.php" />
+        <option value="$PROJECT_DIR$/src/app/Listeners/CalculateTotalOrderListener.php" />
+        <option value="$PROJECT_DIR$/src/app/OrderProduct.php" />
+        <option value="$PROJECT_DIR$/src/app/Listeners/DecrementStockListener.php" />
+        <option value="$PROJECT_DIR$/src/app/Listeners/DecrementStockFromOutputListener.php" />
+        <option value="$PROJECT_DIR$/src/app/Stock/DecrementStocks.php" />
+        <option value="$PROJECT_DIR$/src/app/Listeners/DecrementStockFromCheckoutListener.php" />
+        <option value="$PROJECT_DIR$/src/app/Events/OrderProductCreated.php" />
+        <option value="$PROJECT_DIR$/src/storage/logs/laravel.log" />
       </list>
     </option>
   </component>
@@ -194,10 +170,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="271" />
     <option name="y" value="28" />
-    <option name="width" value="1600" />
-    <option name="height" value="838" />
+    <option name="width" value="942" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -214,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,27 +208,26 @@
               <item name="filas-eventos" type="b2602c69:ProjectViewProjectNode" />
               <item name="filas-eventos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="filas-eventos" type="b2602c69:ProjectViewProjectNode" />
               <item name="filas-eventos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Events" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="filas-eventos" type="b2602c69:ProjectViewProjectNode" />
               <item name="filas-eventos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Listeners" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -258,7 +235,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel-educacional" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="usertablesee&#9;null&#9;null&#10;usertable&#9;null&#9;null&#10;UserTa&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/database/seeds/UsersTableSeeder.php&#10;we&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/routes/web.php&#10;stockoutput&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Http/Controllers/StockOutputsController.php&#10;stocke&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Http/Controllers/StockEntriesController.php&#10;product&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Events/ProductUpdating.php&#10;stockless&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Mail/StockLessMin.php&#10;chec&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Listeners/CheckStockMinListener.php&#10;Decre&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Listeners/DecrementStockListener.php&#10;sto&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Events/StockOutputCreated.php&#10;even&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Providers/EventServiceProvider.php&#10;lara&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/storage/logs/laravel.log&#10;StockOutput&#9;null&#9;null&#10;stockOutput&#9;null&#9;null&#10;StockENtry&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/StockEntry.php&#10;EventSer&#9;null&#9;null&#10;stock&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Mail/StockGreatherMax.php&#10;log&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/storage/logs/laravel.log&#10;composer.j&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/composer.json&#10;app.php&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/bootstrap/app.php&#10;Stock&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Http/Controllers/StockEntriesController.php&#10;env&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/.env&#10;stock_outp&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/database/migrations/2017_08_31_204733_create_stock_outputs_table.php&#10;user&#9;null&#9;null&#10;apppr&#9;null&#9;null&#10;UserR&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Decre&#9;null&#9;null&#10;Order&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/OrderProduct.php&#10;OrderPr&#9;null&#9;null&#10;laravel&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/storage/logs/laravel.log&#10;even&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Providers/EventServiceProvider.php&#10;OrderProduct&#9;null&#9;null&#10;stockentri&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Http/Controllers/StockEntriesController.php&#10;StockEntry&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/StockEntry.php&#10;usertablesee&#9;null&#9;null&#10;usertable&#9;null&#9;null&#10;UserTa&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/database/seeds/UsersTableSeeder.php&#10;we&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/routes/web.php&#10;stockoutput&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Http/Controllers/StockOutputsController.php&#10;stocke&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Http/Controllers/StockEntriesController.php&#10;product&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Events/ProductUpdating.php&#10;stockless&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Mail/StockLessMin.php&#10;chec&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Listeners/CheckStockMinListener.php&#10;sto&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Events/StockOutputCreated.php&#10;lara&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/storage/logs/laravel.log&#10;StockOutput&#9;null&#9;null&#10;stockOutput&#9;null&#9;null&#10;StockENtry&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/StockEntry.php&#10;EventSer&#9;null&#9;null&#10;stock&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Mail/StockGreatherMax.php&#10;log&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/storage/logs/laravel.log&#10;composer.j&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/composer.json&#10;app.php&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/bootstrap/app.php&#10;Stock&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/app/Http/Controllers/StockEntriesController.php&#10;env&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/.env&#10;stock_outp&#9;FILE&#9;file:///home/juliofilgueiras@conder.intranet/projetos/filas-eventos/src/database/migrations/2017_08_31_204733_create_stock_outputs_table.php&#10;user&#9;null&#9;null&#10;apppr&#9;null&#9;null&#10;UserR&#9;null&#9;null" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -310,22 +287,23 @@
       <workItem from="1504631813777" duration="12480000" />
       <workItem from="1504721640197" duration="8712000" />
       <workItem from="1505150957166" duration="2578000" />
-      <workItem from="1505154500401" duration="5287000" />
+      <workItem from="1505154500401" duration="7385000" />
+      <workItem from="1505235958075" duration="13097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61490000" />
+    <option name="totallyTimeSpent" value="76685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1602" height="839" extended-state="6" />
+    <frame x="271" y="28" width="942" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4992764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51123595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764988" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5909677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5903614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -336,8 +314,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4992764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -375,77 +353,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="171" column="43" lean-forward="false" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/views/products/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/views/stock-entries/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/views/stock-entries/create.blade.php" />
-    <entry file="file://$PROJECT_DIR$/src/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_08_31_204706_create_stock_entries_table.php" />
-    <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_08_31_204733_create_stock_outputs_table.php" />
-    <entry file="file://$PROJECT_DIR$/src/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/ProductsController.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.env.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/app.blade.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/views/emails/stock/greather-max.blade.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/Mail/StockGreatherMax.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/Events/StockEntryCreated.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/StockEntry.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/Listeners/IncrementStockListener.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/Listeners/DecrementStockListener.php" />
-    <entry file="file://$PROJECT_DIR$/src/storage/logs/laravel.log" />
     <entry file="file://$PROJECT_DIR$/src/resources/views/emails/stock/less-min.blade.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/Listeners/CheckStockMinListener.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/StockEntriesController.php" />
-    <entry file="file://$PROJECT_DIR$/src/app/Events/StockOutputCreated.php" />
     <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_09_06_192213_create_orders_table.php" />
     <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_09_06_192302_create_order_products.php" />
     <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_09_06_195053_create_orders_table.php" />
-    <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_09_06_195648_create_order_products_table.php" />
     <entry file="file://$PROJECT_DIR$/src/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -460,25 +371,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Events/ProductUpdated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Listeners/CheckStockMaxListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -487,13 +383,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -501,7 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,22 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/StockOutputsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/StockOutput.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,15 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,31 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/seeds/ProductsTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,6 +443,281 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/seeds/ProductsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/a1e7398f/481b59c4-9c91-4af3-af50-048defe28b50/filas-eventos.products">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Events/StockEntryCreated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/StockEntriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/StockOutputsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Listeners/CheckStockMinListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Events/StockOutputCreated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/StockEntry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/StockMovements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Listeners/IncrementStockListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/migrations/2017_09_06_195648_create_order_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/OrdersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="e#38#80#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/views/orders/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/views/orders/successfully.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Events/ProductUpdated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Events/OrderProductsSaveCompleted.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Listeners/CalculateTotalOrderListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/OrderProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#23#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Stock/DecrementStocks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Listeners/DecrementStockFromCheckoutListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="e#33#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Events/OrderProductCreated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Listeners/DecrementStockFromOutputListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#33#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/StockOutput.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
       </provider>

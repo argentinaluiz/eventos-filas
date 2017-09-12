@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    protected $events = [
+    protected $dispatchesEvents = [
       'updated' => ProductUpdated::class
     ];
 

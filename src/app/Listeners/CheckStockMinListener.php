@@ -16,9 +16,9 @@ class CheckStockMinListener
      * @param  ProductUpdated  $event
      * @return void
      */
-    public function handle(ProductUpdated $event)
+    public function handle(ProductUpdated $dispatchesEvents)
     {
-        $product = $event->getProduct();
+        $product = $dispatchesEvents->getProduct();
 
         if($product->stock<($product->stock_max*0.1)){
             \Mail::to(env('MAIL_STOCK'))->send(new StockLessMin($product));

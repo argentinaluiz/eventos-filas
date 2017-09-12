@@ -9,7 +9,7 @@ class StockEntry extends Model
 {
     use StockMovements;
 
-    protected $events = [
+    protected $dispatchesEvents = [
       'created'=> StockEntryCreated::class
     ];
 }
