@@ -13,20 +13,32 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'App\Events\OrderProductsSaveCompleted' => [
-            'App\Listeners\CalculateTotalOrderListener',
-        ],
-        'App\Events\OrderCreatedFully' => [
-            'App\Listeners\SendMailOrderCreatedListener',
-            'App\Listeners\DoPaymentListener',
-        ],
-        'App\Events\OrderProductCreated' => [
-            'App\Listeners\DecrementStockFromCheckoutListener',
-        ],
-        'App\Events\PaymentCompleted' => [
-            'App\Listeners\SendMailPaymentCompleted',
-            'App\Listeners\GenerateReceiptListener',
-        ],
+
+            'App\Events\StockEntryCreated' => [
+                'App\Listeners\IncrementStockListener',
+            ],
+            'App\Events\StockOutputCreated' => [
+                'App\Listeners\DecrementStockFromOutputListener',
+            ],
+            'App\Events\ProductUpdated' => [
+                'App\Listeners\CheckStockMaxListener',
+                'App\Listeners\CheckStockMinListener',
+            ],
+            'App\Events\OrderProductsSaveCompleted' => [
+                'App\Listeners\CalculateTotalOrderListener',
+            ],
+            'App\Events\OrderCreatedFully' => [
+                'App\Listeners\SendMailOrderCreatedListener',
+                'App\Listeners\DoPaymentListener',
+            ],
+            'App\Events\OrderProductCreated' => [
+                'App\Listeners\DecrementStockFromCheckoutListener',
+            ],
+            'App\Events\PaymentCompleted' => [
+                'App\Listeners\SendMailPaymentCompleted',
+                'App\Listeners\GenerateReceiptListener',
+            ],
+
     ];
 
     /**
